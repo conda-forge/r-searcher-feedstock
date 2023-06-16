@@ -1,11 +1,11 @@
-About r-searcher
-================
+About r-searcher-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-searcher-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-assist/searcher
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-searcher-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a search interface to look up terms on 'Google', 'Bing', 'DuckDuckGo', 'Startpage', 'Twitter', 'StackOverflow', 'RStudio Community', 'GitHub', and 'BitBucket'. Upon searching, a browser window will open with the aforementioned search results.
 
