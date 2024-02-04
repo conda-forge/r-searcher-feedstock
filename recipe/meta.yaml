@@ -1,4 +1,4 @@
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/searcher_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/searcher/searcher_{{ version }}.tar.gz
-  sha256: 7547d51ecb95b1bc8c1ec3ec8e346d4d71d8cc8ff4de81b92664c8f90bb6090f
+  sha256: cb0537955a2dc1a3023c90b1bc8e57c2b2da451ad50aabd04f87157fea970226
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
